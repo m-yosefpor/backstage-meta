@@ -1,23 +1,23 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: artist-api
-  description: Retrieve artist details
+  name: morpheus
+  description: Retrieve morpheus details
 spec:
   type: openapi
   lifecycle: production
-  owner: artist-relations-team
-  system: artist-engagement-portal
+  owner: morpheus-relations-team
+  system: morpheus-engagement-portal
   definition: |
     openapi: "3.0.0"
     info:
       version: 1.0.0
-      title: Artist API
+      title: morpheus API
       license:
         name: MIT
     servers:
-      - url: http://artist.spotify.net/v1
+      - url: http://morpheus.spotify.net/v1
     paths:
       /artists:
         get:
-          summary: List all artist
+          summary: List all morpheus

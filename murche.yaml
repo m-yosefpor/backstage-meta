@@ -25,4 +25,4 @@ spec:
   type: app
   owner: offering
   lifecycle: production
-  system: backend
+  system: artist-engagement-portal

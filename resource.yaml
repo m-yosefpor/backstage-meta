@@ -1,9 +1,18 @@
 apiVersion: backstage.io/v1alpha1
 kind: Resource
 metadata:
-  name: artists-db
+  name: murche-redis
   description: Stores artist details
 spec:
   type: database
-  owner: artist-relations-team
-  system: artist-engagement-portal
+  owner: offering
+  system: murche
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: murche
+  description: individual driver location
+spec:
+  owner: offering
+  domain: backend

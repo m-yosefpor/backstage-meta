@@ -25,4 +25,4 @@ spec:
   type: app
   owner: offering
   lifecycle: production
-  system: artist-engagement-portal
+  system: murche
